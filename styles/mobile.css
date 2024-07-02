@@ -11,8 +11,8 @@
   --Very-dark-desaturated-blue: hsl(238, 29%, 16%);
   --Soft-red: hsl(14, 88%, 65%);
   /* background gradient */
-  --Soft-violet: hsl(273, 75%, 66%);
-  --Soft-blue: hsl(240, 73%, 65%);
+  --Soft-violet: #af67e9;
+  --Soft-blue: #6565e7;
   /* text */
   --Very-dark-grayish-blue: hsl(237, 12%, 33%);
   --Dark-grayish-blue: hsl(240, 6%, 50%);
@@ -22,4 +22,33 @@
 
 body {
     font-family: 'Kumbh Sans', sans-serif;
+    background-image: linear-gradient(to left bottom, #af67e9, #9f67e9, #8d66e9, #7a66e8, #6565e7);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 88vh;
+    width: 90%;
+    background-color: #fff;
+    margin: 10rem auto 1rem auto;
+}
+
+.faq {
+    height: 55%; 
+    padding: 1rem; 
+}
+
+.faqimg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#mobile-woman {
+    width: 80%;
+    margin-top: -19rem;
 }
