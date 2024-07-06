@@ -71,45 +71,18 @@ body {
     width: 80%;
 }
 
-.panel {
+ul {
     width: 100%;
-    text-align: left;
-    display: none;
-    overflow: hidden;
-    margin-top: 8px;
-    transition: 2s ease;
+    list-style: none;
 }
 
-.active, .accordion:hover {
-    background-color: #ffffff;
-  }
-
-.rotate {
-    transform: rotate(180deg);
-    transition: transform 0.3s ease;
-}
-
-.arrowIcn {
-    transform: rotate(0);
-}
-
-.accordion {
-    width: 100%;
-    transition: 2s;
+.question {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.card {
-    width: 100%;
-    padding-bottom: 1.5rem;
-    border-bottom: solid 1px var(--Dark-grayish-blue);
-    flex: 1;
-}
-
-.cardContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 2rem;
+.question img {
+    width: 0.8rem;
+    height: 0.75rem;
 }
