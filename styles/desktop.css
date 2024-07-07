@@ -1,0 +1,25 @@
+@media only screen and (min-width: 1024px) {
+    .container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 90vh;
+        margin: 5rem auto 1rem auto;
+    }
+
+    #mobile-woman {
+        display: none;
+    }
+
+    #mobileShadow {
+        display: none;
+    }
+
+    .faqimg {
+        width: 50%;
+    }
+
+    .faq {
+        width: 50%;
+    }
+}

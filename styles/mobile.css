@@ -36,6 +36,10 @@ body {
     border-radius: 16px;
 }
 
+#pattern-bg {
+    display: none;
+}
+
 .faq {
     height: 55%; 
     padding: 1rem;
@@ -99,4 +103,5 @@ body {
 
 li {
     border-bottom: 1px solid var(--Very-dark-desaturated-blue);
+    padding: 0.25rem;
 }
