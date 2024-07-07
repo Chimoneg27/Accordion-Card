@@ -29,7 +29,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 88vh;
+    height: 72vh;
     width: 90%;
     background-color: #fff;
     margin: 10rem auto 1rem auto;
@@ -42,6 +42,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 }
 
 .faq h1 {
@@ -56,24 +57,20 @@ body {
     justify-content: center;
     align-items: center;
     position: relative;
+    height: 25%;
 }
 
 #mobile-woman {
     width: 80%;
     position: absolute;
     z-index: 2;
-    top: -16rem;
+    top: -11rem;
 }
 
 #mobileShadow {
     position: absolute;
-    top: -9rem;
+    top: -4rem;
     width: 80%;
-}
-
-ul {
-    width: 100%;
-    list-style: none;
 }
 
 .question {
@@ -89,4 +86,13 @@ ul {
 
 .answer {
     display: none;
+}
+
+.faq ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; 
+  width: 100%;
+  height: 80%;
+  list-style: none;
 }
