@@ -22,6 +22,18 @@
 
     .faq {
         width: 50%;
+        align-items: flex-start;
+    }
+
+    .faq h1 {
+        width: 100%;
+        text-align: left;
+        font-size: 2rem;
+    }
+
+    .faq ul {
+        width: 80%;
+        gap: 3rem;
     }
 
     #pattern-bg {
