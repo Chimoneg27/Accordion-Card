@@ -96,3 +96,7 @@ body {
   height: 80%;
   list-style: none;
 }
+
+li {
+    border-bottom: 1px solid var(--Very-dark-desaturated-blue);
+}
