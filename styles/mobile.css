@@ -36,7 +36,15 @@ body {
     border-radius: 16px;
 }
 
+#womanDesk {
+    display: none;
+}
+
 #pattern-bg {
+    display: none;
+}
+
+#boxDesk {
     display: none;
 }
 

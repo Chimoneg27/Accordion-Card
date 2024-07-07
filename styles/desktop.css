@@ -4,6 +4,7 @@
         justify-content: space-between;
         align-items: center;
         height: 90vh;
+        width: 85%;
         margin: 5rem auto 1rem auto;
     }
 
@@ -21,5 +22,30 @@
 
     .faq {
         width: 50%;
+    }
+
+    #pattern-bg {
+        display: block;
+        position: absolute;
+        top: -28rem;
+        right: 9rem;
+        width: 140%;
+    }
+
+    #boxDesk {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 30rem;
+        width: 30%;
+        z-index: 1;
+    }
+
+    #womanDesk {
+        display: block;
+        position: absolute;
+        top: -11rem;
+        right: 8rem;
+        width: 90%;
     }
 }
