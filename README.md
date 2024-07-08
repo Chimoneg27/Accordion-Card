@@ -22,8 +22,11 @@ Users should be able to:
 - Hide/Show the answer to a question when the question is clicked
 
 ### Screenshot
+ - Desktop
+![](./images/Screenshot%202024-07-08%20181235.png)
 
-![](./screenshot.jpg)
+- Mobile
+![](./images/Screenshot%202024-07-08%20181309.png)
 
 ### Links
 
